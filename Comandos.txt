@@ -1,0 +1,26 @@
+Comandos:
+
+*seteando git* 
+git init
+git add .
+git commit -m "setting proyect" 
+
+---y aca es donde me doy cuenta que mi hermana tenia su cuenta puesta en mi git config user.name y user.email tonces lo cambio a la mia, eso es por si ve que el primer commit esta hecho por una tal Francis997
+
+Ya lo demás de git creo que no es mucho de mencionarlo mas que por encima y es el git remote add para el proyecto cambiar la rama master a main y el push a origin main
+
+
+SQL (use la terminal que usa en clases xb):
+
+create database BDMarcanoAbreuJesusAntonio;
+
+use BDMarcanoAbreuJesusAntonio;
+
+CREATE TABLE TBL_USUARIOCL2 (    IDUSUARIOCL2 INT AUTO_INCREMENT PRIMARY KEY,    USUARIOCL2 VARCHAR(255) NOT NULL,    PASSWORDCL2 VARCHAR(255) NOT NULL);
+
+CREATE TABLE TBL_PRODUCTOCL2 (    IDPRODUCTOCL2 INT AUTO_INCREMENT PRIMARY KEY,    NOMBRECL2 VARCHAR(255) NOT NULL,    PRECIOVENTACL2 DOUBLE,    PRECIOCOMPCL2 DOUBLE,    ESTADOCL2 VARCHAR(255),    DESCRIPCL2 VARCHAR(255));
+
+esto era nadamas pa ver mis tablitas:
+
+describe TBL_USUARIOCL2
+describe TBL_PRODUCTOCL2

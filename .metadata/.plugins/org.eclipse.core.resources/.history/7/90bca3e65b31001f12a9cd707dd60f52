@@ -1,0 +1,26 @@
+package Test;
+
+import java.util.List;
+
+import Dao.ClassProductoImp;
+import model.TblProductocl2;
+
+public class TestEntidadProducto {
+
+	public static void main(String[] args) {
+		TblProductocl2 producto=new TblProductocl2();
+		ClassProductoImp crud=new ClassProductoImp();
+
+
+	    
+	    List<TblProductocl2> listadoproducto=crud.ListarProductos();
+	    
+	    for(TblProductocl2 listar:listadoproducto){
+	    	System.out.println("Codigo "+listar.getIdproductocl2()+
+	    			"nombre "+listar.getNombrecl2()+
+	    			"descripcion "+listar.getDescripcl2()+ 
+	    			"precio "+listar.getPrecioventacl2());
+	    }
+	}
+
+}

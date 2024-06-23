@@ -1,0 +1,12 @@
+package Test;
+
+import model.TblProductocl2;
+
+public class TestEntidadProducto {
+
+	public static void main(String[] args) {
+		TblProductocl2 producto=new TblProductocl2();
+
+	}
+
+}

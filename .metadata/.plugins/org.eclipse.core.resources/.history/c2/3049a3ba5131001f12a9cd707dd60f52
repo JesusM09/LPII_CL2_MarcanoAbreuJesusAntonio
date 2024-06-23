@@ -1,0 +1,28 @@
+package Dao;
+
+import java.util.List;
+
+import javax.persistence.Persistence;
+
+import Interfaces.Iproducto;
+import model.TblProductocl2;
+
+public class ClassProductoImp implements Iproducto {
+
+	@Override
+	public List<TblProductocl2> ListarProductos() {
+		
+		return null;
+	} // fin metodo listar producto
+
+	@Override
+	public void RegistrarProducto(TblProductocl2 producto) {
+		EntityManagerFactory em= Persistence.createEntityManagerFactory("LPII_CL2_MarcanoAbreuJesusAntonio");
+		EntityManager em = em.createEntityManager();
+		em.getTransaction().begin();
+		em.persist(producto);
+		em.getTransaction().commit();
+		em.close();
+	} // fin metodo registrar producto
+
+}

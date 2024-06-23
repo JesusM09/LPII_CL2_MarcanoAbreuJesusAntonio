@@ -1,0 +1,10 @@
+package Test;
+
+public class TestrEntidadProducto {
+
+	public static void main(String[] args) {
+		TblProductocl2 producto=new TblProductocl2
+
+	}
+
+}

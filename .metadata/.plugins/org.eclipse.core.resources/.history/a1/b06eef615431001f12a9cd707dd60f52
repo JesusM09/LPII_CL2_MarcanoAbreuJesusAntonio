@@ -1,0 +1,14 @@
+package Test;
+
+import Dao.ClassProductoImp;
+import model.TblProductocl2;
+
+public class TestEntidadProducto {
+
+	public static void main(String[] args) {
+		TblProductocl2 producto=new TblProductocl2();
+		ClassProductoImp crud=new ClassProductoImp();
+
+	}
+
+}
